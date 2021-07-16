@@ -19,10 +19,8 @@ public class PersonnelList {
     public String toString() {
         String returnString = " ";
         for(int i = 0; i < empList.size(); i++) {
-           returnString = i + ": " + empList.get(i) + " ";
+            returnString = returnString +  i + ": " + empList.get(i) + " ";
         }
         return returnString;
      }
-    
-   
 }
